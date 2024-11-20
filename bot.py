@@ -71,7 +71,7 @@ async def cancel(update: Update, context: CallbackContext):
 # Основная функция
 def main():
     # Замените 'YOUR_TOKEN' на токен вашего бота
-    application = Application.builder().token("7548098204:AAGiA29Bt2w7ey8DXSwzrKG_jV0EtVB4oFk").build()
+    application = Application.builder().token("").build()
 
     # Диалоговое взаимодействие
     conv_handler = ConversationHandler(
